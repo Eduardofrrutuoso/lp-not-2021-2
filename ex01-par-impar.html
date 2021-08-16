@@ -7,21 +7,20 @@
     <title>Exercício 01</title>
     <script>
         //entrada
-        let num1 = Number(prompt('Insira o primeiro número: '))
-        let num2 = Number(prompt('Insira o segundo número: '))
-        if(isNaN(num1)){
-            alert('ERRO : o primeiro valor informado não é um número!')
-        }
-        else if(isNaN(num2)) {
-            alert('ERRO : o segundo valor informado não é um número!')  
-        }
-        else {
-            xesq = num1 % num2 === 0
-        }
-        //saida
-        alert 
+        let num1 = Number(prompt('Insira o número: '))
 
-
+        if(isNaN(num1))
+        {
+            alert('ERRO : o valor informado não é um número!')
+        }
+if (num1 % 2 === 0)
+{
+    alert ("Esse número é par")
+}
+else
+{
+   alert ("Esse número é impar")
+}
     </script>
 </head>
 <body>
